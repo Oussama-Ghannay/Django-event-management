@@ -1,4 +1,3 @@
-# Workshop_Django4.1 
 
 This is a simple introduction to [Django](https://www.djangoproject.com/) projects.
 
