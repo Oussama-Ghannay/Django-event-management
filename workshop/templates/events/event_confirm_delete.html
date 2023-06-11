@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %} 
+  etes vous sur de supprimer cette event  
+  
+
+ <a class="btn btn-secondary" href="{% url 'events_list' %}">Cancel</a>
+
+    <input class="btn btn-danger" type="submit" value="Confirm">
+</form>
+{% endblock %}
